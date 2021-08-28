@@ -161,7 +161,6 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    width: 80%;
 }
 
 .mainContainer .firstSection .sectionText {
@@ -253,12 +252,13 @@ body {
 
 .mainContainer .final_flex {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
     align-items: center;
+    flex-direction: row;
     justify-content: space-between;
-    width: 120%;
+    width: 85%;
+    margin-top: 12vw;
 }
+
 .mainContainer .thirdSection {
     width: fit-content;
     height: fit-content;
