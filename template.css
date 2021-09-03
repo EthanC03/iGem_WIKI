@@ -435,6 +435,8 @@ a[class*="Link"] {
     list-style: decimal;
 }
 
+/*Team member page*/
+
 .TMP {
     width: 100vw;
     height: 100vh;
