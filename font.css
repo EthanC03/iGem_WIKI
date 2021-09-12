@@ -2,26 +2,36 @@
     background-color: #000000;
     color: #FFF;
 }
+
 @font-face {
     font-family: 'dmSerifDisplay';
     src: url(https://2021.igem.org/wiki/images/3/31/T--KCIS_NewTaipei--dmSerifDisplayItalic.ttf) format('truetype');
     src: url(https://2021.igem.org/wiki/images/e/e9/T--KCIS_NewTaipei--dmSerifDisplayItalic.woff) format('woff');
 }
+
+@font-face {
+    font-family: 'ubuntuMonoRegular';
+    src: url(https://2021.igem.org/wiki/images/0/0a/T--KCIS_NewTaipei--ubuntuMonoRegular.ttf) format('truetype');
+}
+
 @font-face {
     font-family: 'playfairDisplay';
     src: url(https://2021.igem.org/wiki/images/4/4f/T--KCIS_NewTaipei--playfairDisplayMedium.ttf) format('truetype');
     src: url(https://2021.igem.org/wiki/images/3/35/T--KCIS_NewTaipei--playfairDisplay.woff) format('woff');
 }
+
 @font-face {
     font-family: 'averiaSerifLibre';
     src: url(https://2021.igem.org/wiki/images/0/06/T--KCIS_NewTaipei--averiaSerifLibreItalic.eot) format('embedded-opentype');
     src: url(https://2021.igem.org/wiki/images/0/0f/T--KCIS_NewTaipei--averiaSerifLibreItalic.ttf) format('truetype');
 }
+
 @font-face {
     font-family: 'raleway';
     src: url(https://2021.igem.org/wiki/images/2/22/T--KCIS_NewTaipei--ralrway.ttf) format('truetype');
     src: url(https://2021.igem.org/wiki/images/7/7d/T--KCIS_NewTaipei--raleway.woff) format('woff');
 }
+
 @font-face {
     font-family: 'poetSenOne';
     src: url(https://2021.igem.org/wiki/images/c/c5/T--KCIS_NewTaipei--poetSenOne.ttf) format('truetype');
