@@ -27,3 +27,14 @@
     src: url(https://2021.igem.org/wiki/images/c/c5/T--KCIS_NewTaipei--poetSenOne.ttf) format('truetype');
     src: url(https://2021.igem.org/wiki/images/b/b8/T--KCIS_NewTaipei--poetSenOne.woff) format('woff');
 }
+@font-face {
+    font-family: 'ubuntu';
+    src: url(https://2021.igem.org/wiki/images/f/f7/T--KCIS_NewTaipei--ubuntuRegular.ttf) format('truetype');
+    src: url(https://2021.igem.org/wiki/images/2/2c/T--KCIS_NewTaipei--ubuntuRegular.woff) format('woff');
+}
+@font-face {
+    font-family: 'ubuntu-mono';
+    src: url(https://2021.igem.org/wiki/images/0/0a/T--KCIS_NewTaipei--ubuntuMonoRegular.ttf) format('truetype');
+    src: url(https://2021.igem.org/wiki/images/e/e4/T--KCIS_NewTaipei--ubuntuMonoRegular.woff) format('woff');
+}
+

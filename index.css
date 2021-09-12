@@ -257,6 +257,7 @@ body {
     height: fit-content;
     position: relative;
     background-color: rgba(255, 212, 128, .4);
+    margin-right: 5vw;
     text-align: center;
     display: block;
 }
