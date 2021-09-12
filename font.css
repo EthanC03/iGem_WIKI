@@ -10,11 +10,6 @@
 }
 
 @font-face {
-    font-family: 'ubuntuMonoRegular';
-    src: url(https://2021.igem.org/wiki/images/0/0a/T--KCIS_NewTaipei--ubuntuMonoRegular.ttf) format('truetype');
-}
-
-@font-face {
     font-family: 'playfairDisplay';
     src: url(https://2021.igem.org/wiki/images/4/4f/T--KCIS_NewTaipei--playfairDisplayMedium.ttf) format('truetype');
     src: url(https://2021.igem.org/wiki/images/3/35/T--KCIS_NewTaipei--playfairDisplay.woff) format('woff');
