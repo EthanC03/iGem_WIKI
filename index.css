@@ -154,6 +154,7 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    margin-left: -5vw;
 }
 
 .mainContainer .firstSection .sectionText {
