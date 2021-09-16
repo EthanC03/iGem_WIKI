@@ -13,6 +13,8 @@ body {
     clear: none;
 }
 
+/*Human Practice Page*/
+
 .HP {
     width: 100%;
     height: 100%;
@@ -39,6 +41,8 @@ body {
     left: 4.5vw;
     z-index: -1;
 }
+
+/*Description Page*/
 
 .DP {
     width: 100%;
@@ -221,6 +225,7 @@ body {
 a[class*="Link"] {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .bgLink, .TRYLink, .INSLink, .REFLink {
@@ -434,7 +439,7 @@ a[class*="Link"] {
     list-style: decimal;
 }
 
-/*Team member page*/
+/*Team Member Page*/
 
 .TMP {
     width: 100vw;
@@ -940,4 +945,147 @@ a[class*="Link"] {
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
     position: relative;
+}
+
+.EDU .wordContainer {
+    position: absolute;
+    font-family: 'dmSerifDisplay', 'sans-serif';
+    font-size: 10vw;
+    color: #FFF;
+    white-space: nowrap;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.EDU .wordContainer em {
+    position: absolute;
+    font-style: normal;
+    color: #000;
+    top: 50%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    filter: blur(4px);
+}
+
+.eduHeading1 {
+    font-family: 'ubuntu', 'sans-serif';
+    font-size: 4vw;
+    padding: 2.5vw;
+}
+
+.eduText {
+    font-family: 'ubuntuMonoRegular', 'sans-serif';
+    font-size: 1vw;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.eduTextFlex {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vh;
+    font-family: 'ubuntuMonoRegular', 'sans-serif';
+    font-size: 1vw;
+}
+
+.eduimgFlex1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8vw;
+    margin-right: 10vw;
+}
+
+.eduimgWrapper1 {
+    width: 20vw;
+    height: 10vw;
+}
+
+.eduimgWrapper2 {
+    width: 20vw;
+    height: 12vw;
+    margin-top: 10vh;
+}
+
+.edupic1 {
+    width: 100%;
+    height: 100%;
+}
+
+.edupic2 {
+    width: 100%;
+    height: 100%;
+}
+
+.linkContainer {
+    font-family: 'ubuntuMonoRegular', 'sans-serif';
+    font-size: 1vw;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.etshFlex {
+    display: flex;
+    flex-direction: column;
+}
+
+.eduimgFlex2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    justify-content: space-between;
+    margin-top: 4vh;
+}
+
+.eduimgWrapper3, .eduimgWrapper4 {
+    width: 24vw;
+    height: 24vw;
+}
+
+.edupic3, .edupic4 {
+    width: 100%;
+    height: 100%;
+}
+
+.edufig1and2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    background-color: rgba(245, 141, 141, .26);
+    text-align: center;
+    font-family: 'playfairDisplay', 'sans-serif';
+    font-size: 1.2vw;
+    padding: 1vw;
+}
+
+.eduimgFlex3 {
+    display: flex;
+    flex-direction: row;
+    widtH: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8vh;
+    justify-content: space-between;
+}
+
+.edufig3 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    width: 80%;
+    text-align: center;
+    font-family: 'playfairDisplay', 'sans-serif';
+    font-size: 1.2vw;
+    padding: 1vw;
 }
