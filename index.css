@@ -160,7 +160,7 @@ body {
 .mainContainer .firstSection .sectionText {
     color: #000;
     font-size: 1.5vw;
-    font-family: 'playfairDisplay', 'sans-serif';
+    font-family: 'ubuntuMonoRegular';
     text-align: center;
     padding: 4vw 2vw 2vh 2vw;
     line-height: 2vw;
@@ -205,7 +205,7 @@ body {
 .mainContainer .secondSection .sectionText {
     color: #000;
     font-size: 1.458vw;
-    font-family: 'playfairDisplay';
+    font-family: 'ubuntuMonoRegular';
     font-style: normal;
     text-align: center;
     padding: 2vw;
@@ -216,7 +216,7 @@ body {
     color: #000;
     background-color: none;
     font-size: 3.125vw;
-    font-family: 'dmSerifDisplay';
+    font-family: 'ubuntu';
     font-style: normal;
     text-align: center;
     padding: 0 2vw 2vw 2vw;
@@ -276,7 +276,7 @@ body {
 .mainContainer .thirdSection .sectionText {
     color: #000;
     font-size: 1.4583vw;
-    font-family: 'playfairDisplay';
+    font-family: 'ubuntuMonoRegular';
     line-height: 2vw;
     padding: 1.25vh 2vw 2vh 2vw;
 }
@@ -314,7 +314,7 @@ body {
     height: 15vh;
     position: absolute;
     font-size: 2.15vw;
-    font-family: 'playfairDisplay';
+    font-family: 'ubuntuMonoRegular';
     font-style: normal;
     text-align: center;
     top: 70%;
