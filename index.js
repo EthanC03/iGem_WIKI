@@ -11,20 +11,6 @@ window.onscroll = function () {
   }
 };
 
-function emailFunc(x) {
-  if (x.matches) {
-    document.getElementById("googleEmail").style.display = "none";
-    document.getElementById("emailIcon").style.display = "block";
-  } else {
-    document.getElementById("emailIcon").style.display = "none";
-    document.getElementById("googleEmail").style.display = "block";
-  }
-}
-
-var width = window.matchMedia("(max-width: 1000px)");
-emailFunc(width);
-width.addListener(emailFunc);
-
 $("#rb").bind("click", function () {
   $("html, body").animate({ scrollTop: 0 });
 });
