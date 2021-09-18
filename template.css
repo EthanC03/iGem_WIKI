@@ -1063,7 +1063,7 @@ a[class*="Link"] {
     margin-bottom: 6vh;
     background-color: rgba(245, 141, 141, .26);
     text-align: center;
-    font-family: 'playfairDisplay', 'sans-serif';
+    font-family: 'ubuntuMonoRegular', 'sans-serif';
     font-size: 1.2vw;
     padding: 1vw;
 }
@@ -1085,7 +1085,7 @@ a[class*="Link"] {
     margin-bottom: 6vh;
     width: 80%;
     text-align: center;
-    font-family: 'playfairDisplay', 'sans-serif';
+    font-family: 'ubuntuMonoRegular', 'sans-serif';
     font-size: 1.2vw;
     padding: 1vw;
 }
