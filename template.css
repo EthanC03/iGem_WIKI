@@ -1135,3 +1135,24 @@ a[class*="Link"] {
     z-index: -1;
     filter: blur(4px);
 }
+
+.sftyHeading1 {
+    font-family: 'ubuntu', 'sans-serif';
+    font-size: 4vw;
+    padding: 2.5vw;
+}
+
+.sftyHeading2 {
+    font-family: 'ubuntu', 'san-serif';
+    font-size: 3vw;
+    padding: 1.5vw;
+}
+
+.sftyText {
+    font-family: 'ubuntuMonoRegular', 'sans-serif';
+    font-size: 1.2vw;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 3.3vh;
+}
