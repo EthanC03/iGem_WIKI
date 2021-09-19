@@ -1,84 +1,383 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Implementation</title>
-</head>
-<body>
+    <link rel="stylesheet" type="text/css" href="template.css" />
+    <!--<link rel="stylesheet" type="text/css"
+            href="https://2021.igem.org/Template:KCIS_NewTaipei/template.css%26action%3Draw%26ctype%3Dtext/css"
+            />-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://2021.igem.org/Template:KCIS_NewTaipei/fonts.css%26action%3Draw%26ctype%3Dtext/css"
+    />
+    <script
+      type="text/javascript"
+      src="https://2021.igem.org/Template:KCIS_NewTaipei/JQuery.js%26action%3Draw%26ctype%3Dtext/javascript"
+    ></script>
+  </head>
+  <body>
     <div class="IMP" id="imp">
-        <div class="wordContainer">
-          IMPLEMENTATION
-          <em>IMPLEMENTATION</em>
+      <div class="wordContainer">
+        IMPLEMENTATION
+        <em>IMPLEMENTATION</em>
+      </div>
+      <div id="progressBar"></div>
+      <div id="scrollPath"></div>
+      <section class="mainContainer">
+        <div class="returnButton" id="rb">
+          <div class="RB1"></div>
+          <div class="RB2"></div>
+          <div class="RB3"></div>
         </div>
-        <div id="progressBar"></div>
-        <div id="scrollPath"></div>
-        <section class="mainContainer">
-          <div class="returnButton" id="rb">
-            <div class="RB1"></div>
-            <div class="RB2"></div>
-            <div class="RB3"></div>
-          </div>
-          <div class="pinnedMenuContainer" id="stickyMenu">
-            <ul class="pinnedMenu">
-                <li>
-                    <a href="#">
-                        GOAL
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        SURVEY
-                        <br />
-                        RESULTS
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        FERMENTATION
-                        <br />
-                        STARTER
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        OUR PRODUCT
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        TARGET USER
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        PUBLIC
-                        <br />
-                        ACCEPTANCE &
-                        <br />
-                        SAFETY
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        MARKETING PLAN
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        IMPLEMENTATION
-                        <br />
-                        IN REAL WORLD
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        REFERENCES
-                    </a>
-                </li>
-            </ul>
-          </div>
-        </section>
+        <div class="pinnedMenuContainer1" id="stickyMenu">
+          <ul class="pinnedMenu">
+            <li>
+              <a href="#" class="goalLink">
+                <button></button>
+                GOAL
+              </a>
+            </li>
+            <li>
+              <a href="#" class="SRLink">
+                <button></button>
+                SURVEY
+                <br />
+                RESULTS
+              </a>
+            </li>
+            <li>
+              <a href="#" class="FSLink">
+                <button></button>
+                FERMENTATION
+                <br />
+                STARTER
+              </a>
+            </li>
+            <li>
+              <a href="#" class="OPLink">
+                <button></button>
+                OUR PRODUCT
+              </a>
+            </li>
+            <li>
+              <a href="#" class="TULink">
+                <button></button>
+                TARGET USER
+              </a>
+            </li>
+            <li>
+              <a href="#" class="PASLink">
+                <button></button>
+                PUBLIC
+                <br />
+                ACCEPTANCE &
+                <br />
+                SAFETY
+              </a>
+            </li>
+            <li>
+              <a href="#" class="MPLink">
+                <button></button>
+                MARKETING PLAN
+              </a>
+            </li>
+            <li>
+              <a href="#" class="IIRWLink">
+                <button></button>
+                IMPLEMENTATION
+                <br />
+                IN REAL WORLD
+              </a>
+            </li>
+            <li>
+              <a href="#" class="IMPREFLink">
+                <button></button>
+                REFERENCES
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="impHeading">Goal</div>
+        <article class="impText">
+          In this iGEM project, we hope to publicize the use of our specialized
+          fermentation starter, D-licious, into people’s daily diets around the
+          globe, working towards commercialization in the global markets. We aim
+          for our “D-licious” fermentation kit to utilize the multiculturality
+          of fermented foods to alleviate and ultimately cure vitamin D
+          deficiency. In simple terms, we hope to combat the issue of vitamin D
+          deficiency in the healthiest, most convenient, and enjoyable way
+          possible.
+        </article>
+        <div class="impHeading">Survey Results</div>
+        <article class="impText">
+          In this iGEM project, we hope to publicize the use of our specialized
+          fermentation starter, D-licious, into people’s daily diets around the
+          globe, working towards commercialization in the global markets. We aim
+          for our “D-licious” fermentation kit to utilize the multiculturality
+          of fermented foods to alleviate and ultimately cure vitamin D
+          deficiency. In simple terms, we hope to combat the issue of vitamin D
+          deficiency in the healthiest, most convenient, and enjoyable way
+          possible.
+        </article>
+        <div class="impHeading">Fermentation Starter</div>
+        <article class="impText">
+          Fermentation is one of the methods by which cells generate energy and
+          maintain redox balance in anoxic environments (Catalanotti et al.,
+          2013). Yeasts and lactic acid bacteria play crucial roles in the
+          metabolism of alcoholic fermentation and lactic acid fermentation
+          respectively, in which a carbohydrate is converted into an alcohol or
+          an acid (Maicas, 2020) (National Research Council (US) Panel on the
+          Applications of Biotechnology to Traditional Fermented Foods, 1992).
+          Fermentation increases acid and alcohol content and decreases water,
+          inhibiting the growth of spoilage microorganisms by creating a harsh
+          environment difficult for their survival. Therefore, the yeasts and
+          lactic acid bacteria are employed by people worldwide to preserve and
+          produce food including wine and beer as well as pickles, yogurts, and
+          kimchi.
+          <br />
+          <br />
+          The process of fermentation varies for different fermented foods.
+          Fermentation processes of vegetables, including dill pickles and
+          sauerkraut, can be conducted by dry salting or brining, whereas
+          products such as yogurt and kombucha require the addition of starter
+          culture to the food materials. However, our D-licious fermentation
+          starter can be added to both kinds of fermentation food to increase
+          the growth of certain target bacteria (Downshiftology, 2019).
+          <br />
+          <br />
+          Fermentation starters are bases used during the commercial production
+          of some fermented foods to ensure the consistency in properties of the
+          products, including the acidity and aroma. The microbial cultures
+          consist of specific cultivation media and a specific mix of essential
+          microorganisms that would be inoculated to perform the fermenting
+          process (Starter Culture - an Overview | ScienceDirect Topics, 2017).
+          The fermentation starters of our products would be in the form of
+          powder. The manufacture of them starts with heat treatment of the
+          medium, in which the original microorganisms and the dissolved oxygen
+          are eliminated. The specific bacteria culture is then inoculated to
+          the heated-treated media cooled down to a suitable temperature for
+          bacteria growth. During incubation, the bacteria multiply and perform
+          the process of fermentation until the starter culture is cooled down
+          to inhibit further growth, which helps maintain the high activity of
+          the bacteria. Finally, with methods such as freezing, the starters are
+          preserved for storage (CULTURES AND STARTER MANUFACTURE, 2019).
+        </article>
+        <div class="impHeading">Our Product</div>
+        <article class="impText">
+          The D-licious fermentation kit includes tools and recipes for homemade
+          fermentation food along with a powdered fermentation starter
+          incorporating probiotics specifically engineered to upregulate the
+          activation of the vitamin D the users consume/intake.
+          <br />
+          <br />
+          <br />
+          <br />
+          Several tools are included in the D-Licious fermentation kit to assist
+          fermentation processes at home, including fermentation jars, a
+          pounding tool/tamper, waterless airlock tops, glass, weights, and
+          recipes. The fermentation jars provide containers of food materials in
+          which the probiotics in the starter perform the fermentation process.
+          The pounding tool helps to crush large food materials such as
+          cucumbers into smaller pieces. The airlock, which should be attached
+          to the glass and the lid, maintains an anaerobic atmosphere for
+          fermentation, preventing the air from entering the jars while allowing
+          the release of CO2 generated during fermentation. The weights help
+          hold the food in place during the fermentation process. To suit the
+          preference of each user, we also include the details of the steps for
+          making each specific fermented food (yogurt, pickles, and kimchi) in
+          the recipes.
+          <br />
+          <br />
+          <br />
+          <br />
+          To utilize the D-Licious fermentation starter, users can start with
+          the preparation of food materials, of which the process would vary
+          with the type of food. Specifically, milk would be heated and
+          vegetables would be sliced into appropriate pieces. After setting the
+          materials to the temperature suitable for the growth of bacteria, the
+          fermentation starter could be added (along with salt/ saltwater in
+          terms of vegetable food materials) and left for incubation. Finally,
+          the fermented food could be frozen for preservation.
+        </article>
+        <div class="impHeading">Target Users</div>
+        <article class="impText">
+          Although our engineered fermentation starter can be applied all around
+          the globe with different cultures, lifestyles, and diets, we believe
+          that it is still important to further analyze higher risk groups of
+          vitamin D deficiency; this will allow us to maximize our product’s
+          potential and identify populations more in need of our product. By
+          identifying the target user groups in need of our product, D-Licious
+          could potentially be more than just a part of a fermented food diet
+          but a probiotic treatment for vitamin D deficiency. While individuals
+          fulfilling these requirements may experience more severe vitamin D
+          deficiency symptoms, this product is available to all individuals
+          without diseases or intestinal damage.
+        </article>
+        <div class="impHeading1">Taiwanese Local Target Users</div>
+        <article class="impText">
+          Vitamin D deficiency is a serious health issue around the world;
+          Taiwan is one of the countries most significantly impacted. According
+          to a survey conducted by Chang Gung Memorial Hospital that examines
+          the 25(OH)D levels of a total of 3954 individuals, despite the high
+          level of sunlight expected in subtropical regions, vitamin D
+          deficiency is prevalent in Taiwan. Specifically, in urban areas of
+          northern Taiwan, behavior factors such as the tendency to stay indoors
+          for work, the application of makeup on the skin, and the increasing
+          air pollution limit people’s exposure to sunlight, resulting in a
+          higher vitamin D deficiency prevalence rate of 22.4% (25(OH)-D
+          concentration < 20 ng/mL) (Lee et al. 2019). The issue could
+          potentially worsen due to the recent COVID-19 lockdown, which has
+          prevented people from outdoor activities. The decrease in exposure to
+          sunlight might cause a higher risk of vitamin D deficiency in
+          Taiwanese. Therefore, our product is especially suitable for local
+          citizens under these circumstances.
+        </article>
+        <div class="impHeading1">Global General Target Users</div>
+        <article class="impText">
+          <em>Infants and Toddlers (6 months~3 years old)</em>
+          <br />
+          An urban primary care clinical study measured the prevalence rate of
+          vitamin D deficiency among 365 healthy infants and toddlers, the
+          results were shocking. Out of all participants, 52.1% were shown to
+          have levels of vitamin D below the accepted optimal threshold (Gordon
+          et al., 2008). From this, we see that newborn babies to toddlers up to
+          3 years of age are all high-risk groups for vitamin D deficiency.
+          Although breast milk provides a blend of vitamins, proteins, and fat,
+          the amount of vitamin D in breast milk is far less than the minimum
+          required for a healthy infant (Breastmilk information, 2021). Also,
+          the nutrition of breast milk depends on the mother’s condition,
+          therefore vitamin D levels in the milk of deficient individuals are
+          further reduced. The infant or toddler, therefore, requires to intake
+          extra amounts of vitamin D from other food sources which generally
+          have minimal levels of vitamin D compared to supplements or sunlight
+          (CDC, 2019). Vitamin D limitations in food sources as well as infants’
+          lack of sunlight exposure all contribute to their development of
+          rickets, muscle weakness, and fractures (Canadian Paediatric Society,
+          2021). Considering how deficient amounts of vitamin D hinder infants
+          and toddlers’ motor development and put them at risk of vitamin D
+          related diseases, we decided to target infants from 6 months (can
+          start yogurt intake in small quantities) up to toddlers of 3 years old
+          (Can Babies Have Yogurt: Answers for Parents, 2018).
+          <br />
+          <em>Older Adults/Seniors</em>
+          <br />
+          According to a study in Singapore, out of 134 subjects ( ≥ 65 years
+          old), 115 patients (85.6%) presented low serum 25-hydroxyvitamin D3
+          (25OHD3) levels. Another clinical report has also shown that out of
+          217 consecutively geriatric hospitalized patients, approximately 96%
+          of all have serum 25(OH)D below the optimal concentrations of ≥30
+          ng/ml (Boettger et al., 2018). Risk factors for the elderlys’ vitamin
+          D deficiency issues include decreased VDR expression, decreased
+          vitamin D production in the skin, decreased kidney function for
+          1,25(OH)2D production, and several others. In older individuals, aging
+          results in lower vitamin D production in the human skin due to the
+          decrease in 7-DHC which further slows down the response to UVB rays
+          when exposed to sunlight. When a person ages, renal functions decline
+          as well, leading to decreased activity of renal enzymes, such as 1α
+          hydroxylase that converts 25OHD into 1,25(OH)2D. Moreover, ones with
+          age ≥80 often have glomerular function rates (GFR) under 50 mL/min,
+          highly lowering the production of 1,25(OH)2D levels. While these all
+          have major contributions to relationships between aging and vitamin D
+          deficiency, substrate deficiency also plays a significant role in
+          vitamin D deficiency in seniors. This type of deficiency is caused by
+          the diet or lack of sunlight exposure, decreasing 25(OH)D that limits
+          1,25(OH)2D production (Gallagher, 2013). Due to all factors above,
+          seniors are especially at risk with vitamin D deficiency, and can
+          therefore be listed as one of the main target users for our engineered
+          fermentation starter.
+          <br />
+          <em>Individuals with Darker Skin</em>
+          <br />
+          Skin color has high biological significance and is associated with the
+          regulation of Vitamin D in human bodies. Individuals with darker skin
+          have higher risks of vitamin D deficiency as well. According to the
+          Division of Health Equities at Beckman Research Institute of City of
+          Hope, about 70% of African Americans suffer from vitamin D deficiency,
+          causing them to be more vulnerable to cancer and cardiovascular
+          diseases than people with lighter skin tone. The pigmentation causing
+          the darker skin tone is a natural barrier against the UV light
+          penetrating through the skin. Specifically, the large amounts of
+          melanin, which is responsible for the tanning of the skin, in the
+          epidermal layer undermine the skin’s ability to absorb sunlight and
+          produce vitamin D. Furthermore, scientists also found that three
+          regions of genes in African Americans that associate with the
+          regulation of skin pigmentation also has a strong connection to
+          vitamin D deficiency, therefore leading to the requirement of more
+          intense sunlight exposure to synthesize sufficient amounts of Vitamin
+          D. As a result, Individuals with darker skin tone are the potential
+          target users for our products.
+          <br />
+          <em>Obese Individuals</em>
+          <br />
+          Obesity, a chronic health condition, has displayed strong bonds with
+          vitamin D deficiency. Recent reports revealed prevalence rates of
+          vitamin D deficiency in the obese population of up to 90% (UC Health).
+          Studies have revealed that increasing BMI and body fat is associated
+          with lower 25(OH)D concentrations, high PTH (parathyroid hormone)
+          concentrations, and low 1,25(OH)2D levels (Vanlint, 2013). Reasons for
+          connections between vitamin D deficiency and obesity may be due to
+          obese individual’s lower participation in outdoor activities, leading
+          to minimal sunlight exposure. Other scientific theories also suggest
+          how obese subjects experienced lower increases in plasma levels of
+          25(OH)D after oral supplementation or exposure to UVB rays because of
+          vitamin D distributing into excessive amounts of adipose tissues (AT)
+          which are responsible for accumulating and retaining fat-soluble
+          vitamins. Furthermore, several also pointed out possible correlations
+          of impaired hepatic 25-hydroxylation with lower 25(OH)D
+          concentrations. As one common chronic liver disease in obesity,
+          non-alcoholic fatty liver disease (NAFLD) has been found to be
+          responsible for causing liver cirrhosis, causing the damage,
+          inflammation, or necrosis in the liver which may also contribute to
+          low 25(OH)D. While the reasons for associations between obesity and
+          vitamin D remain unclear, there is no doubt about a cause-effect
+          relationship between the two (Vranić et al., 2019).
+        </article>
+        <div class="impHeading">Public Acceptance & Safety</div>
+        <article class="impText">
+          Among the 1027 responses, 64.5% replied that they are not willing to
+          try our product mainly because of their concern for its safety.
+          Coincidentally, the remaining 35%, who replied that they might try our
+          product, have the least amount of exposure to sunlight. Taking our
+          product is, therefore, an alternative to balance the amount of vitamin
+          D in their body.
+        </article>
+        <article class="impText">
+          Generally, probiotics, butyrate, and fermented food all have potential
+          negative health implications if over consumed. However, if consumed in
+          safe/adequate amounts, fermented food made from D-licious starters not
+          only trains a more healthy and diverse gut microbiome but also
+          upregulates the downstream effects of vitamin D that would benefit
+          health. Users can refer to our safety page for more detailed and
+          specific information concerning the safety of our product.
+        </article>
+        <div class="impHeading">Marketing Plan</div>
+        <article class="impText">
+          To let our products be promoted globally, we research a variety of
+          information to complete our marketing plan. We analyzed and searched
+          for similar products in the current market, locking specific customers
+          in and out of the marketplace. Considering changes in community and
+          time, we try to find ways of fitting into our current societal
+          environment. And try to find out what the position of our product is.
+          What is the difference between our product and the others?
+        </article>
+        <div class="articleLink">
+          (For more specific information, please click
+          <a href="#">here</a>.)
+        </div>
+        <div class="impHeading">Implementation In Real World</div>
+        <article class="impText">
+          In order to achieve commercialization globally, we compiled
+          information from different sources, gathered public opinions, and
+          created marketing plans. Through our product’s hardware design and
+          recipes customized for various fermentation foods, D-licious will be
+          effectively and unwittingly incorporated into people’s daily diets in
+          the real world.
+        </article>
+        <div class="impHeading">References</div>
+      </section>
     </div>
-</body>
+  </body>
 </html>
