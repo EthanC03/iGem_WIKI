@@ -22,3 +22,11 @@ $("a[href^='#']").click(function (e) {
         scrollTop: position
     });
 });
+
+$(window).scroll(function () {
+    if ($(window).scrollTop() + $(window).height() >= $(document).height()) {
+        $('#progressBar').fadeOut();
+    } else {
+        $('#progressBar').fadeIn();
+    }
+});
