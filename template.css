@@ -52,7 +52,7 @@ figcaption {
     z-index: -1;
 }
 
-/*fsafetyn Page*/
+/*Description Page*/
 
 .DP {
     width: 100%;
@@ -193,7 +193,6 @@ figcaption {
     position: absolute;
     left: -21vw;
     width: 15vw;
-    height: auto;
     padding: 1vw !important;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
     background-color: rgba(255, 212, 128, .4);
@@ -460,7 +459,7 @@ a[class*="Link"] {
     font-size: 1.2vw;
 }
 
-#DP ol {
+.DP ol {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -471,7 +470,7 @@ a[class*="Link"] {
     margin-bottom: 4vh;
 }
 
-#DP ol li {
+.DP ol li {
     white-space: normal;
     font-family: 'playfairDisplay', 'sans-serif';
     font-size: 0.8vw;
