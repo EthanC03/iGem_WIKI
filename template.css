@@ -52,7 +52,7 @@ figcaption {
     z-index: -1;
 }
 
-/*Description Page*/
+/*fsafetyn Page*/
 
 .DP {
     width: 100%;
@@ -1165,6 +1165,26 @@ a[class*="Link"] {
     margin-left: auto;
     margin-right: auto;
     line-height: 3.3vh;
+}
+
+.SFTY ol {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4vh;
+}
+
+.SFTY ol li {
+    white-space: normal;
+    font-family: 'playfairDisplay', 'sans-serif';
+    font-size: 0.8vw;
+    margin: 1vw 0;
+    line-height: 1vw;
+    list-style: decimal;
 }
 
 /*Implementation Page*/
