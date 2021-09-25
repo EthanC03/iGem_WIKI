@@ -184,13 +184,15 @@ figcaption {
     position: -webkit-sticky;
     position: sticky;
     top: 15vh;
+    width: 0;
+    float: left;
 }
 
 .pinnedMenu {
     list-style: none;
     position: absolute;
     left: -21vw;
-    width: calc(100% - 50vw);
+    width: 15vw;
     height: auto;
     padding: 1vw !important;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
@@ -314,11 +316,17 @@ a[class*="Link"] {
     line-height: 3.3vh;
 }
 
-.descriptionOV {
+.descriptionOVWrapper {
     position: relative;
     margin-top: 10vh;
-    left: 16.5vw;
+    width: 50%;
+    left: 50%;
+    transform: translateX(-50%);
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+}
+
+.descriptionOV {
+    width: 100%;
 }
 
 .DPFig1 {
@@ -334,12 +342,17 @@ a[class*="Link"] {
     padding: 1vw;
 }
 
-.VDMap {
+.VDMapWrapper {
     position: relative;
     margin-top: 10vh;
+    width: 80%;
     left: 50%;
     transform: translateX(-50%);
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+}
+
+.VDMap {
+    width: 100%;
 }
 
 .DPFig2 {
@@ -383,42 +396,58 @@ a[class*="Link"] {
     margin-right: 10vw;
 }
 
-.BPPC {
+.BPPCWrapper {
     margin-top: 5vh;
     position: relative;
     left: 50%;
+    width: 80%;
     transform: translateX(-50%);
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+}
+
+.BPPC {
+    width: 100%;
 }
 
 .DPFig5 {
     width: calc(100% - 16vw);
     height: fit-content;
     background-color: rgba(245, 141, 141, .26);
-    margin: 4vh 7vw;
+    margin: 4vh auto;
     padding: 1vw;
     font-size: 1.2vw;
 }
 
-.BPP {
+.BPPWrapper {
     margin-top: 5vh;
     position: relative;
     left: 50%;
+    width: 80%;
     transform: translateX(-50%);
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+}
+
+.BPP {
+    width: 100%;
 }
 
 .DPFig6 {
     width: calc(100% - 24vw);
     background-color: rgba(245, 141, 141, .26);
     padding: 1vw;
-    margin: 4vh 11vw;
+    margin: 4vh auto;
     font-size: 1.2vw;
 }
 
-.BPProcess {
+.BPProcessWrapper {
     position: relative;
-    left: 5.5vw;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+}
+
+.BPProcess {
+    width: 100%;
 }
 
 .DPFig7 {
@@ -426,7 +455,8 @@ a[class*="Link"] {
     height: fit-content;
     background-color: rgba(245, 141, 141, .26);
     padding: 1vw;
-    margin: 1vh 9vw;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 1.2vw;
 }
 
@@ -1249,7 +1279,13 @@ a[class*="Link"] {
 .pinnedMenuContainer1 {
     position: -webkit-sticky;
     position: sticky;
-    top: 5vh;
+    top: 10vh;
+    width: 0;
+    float: left;
+}
+
+.pinnedMenuContainer1 .pinnedMenu li {
+    padding: 0.6vw 0.6vw;
 }
 
 .impHeading {
