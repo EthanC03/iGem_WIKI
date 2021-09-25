@@ -317,7 +317,8 @@ a[class*="Link"] {
 .descriptionOV {
     position: relative;
     margin-top: 10vh;
-    left: 16.5vw;
+    left: 50%;
+    transform: translateX(-50%);
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
 }
 
@@ -1224,9 +1225,13 @@ a[class*="Link"] {
 .pinnedMenuContainer1 {
     position: -webkit-sticky;
     position: sticky;
-    top: 5vh;
+    top: 10vh;
     width: 0;
     float: left;
+}
+
+.pinnedMenuContainer1 .pinnedMenu li {
+    padding: 0.6vw 0.6vw;
 }
 
 .impHeading {
