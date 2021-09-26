@@ -15,13 +15,6 @@ navId3.addEventListener("click", logoNavSwitch);
 navId4.addEventListener("click", logoNavSwitch);
 navId5.addEventListener("click", logoNavSwitch);
 
-function logoNavSwitch() {
-  if (navBar.className === "menuBar") {
-    navBar.className += " dropDown";
-    trackButton.classList.toggle("transit");
-  }
-}
-
 function menuBarSwitch() {
   trackButton.classList.toggle("transit");
   if (navBar.className === "menuBar") {
@@ -32,6 +25,22 @@ function menuBarSwitch() {
   }
 }
 
+function logoNavSwitch() {
+  if (navBar.className === "menuBar") {
+    navBar.className += " dropDown";
+    trackButton.classList.toggle("transit");
+  }
+}
+
 function hideOut() {
   navBar.style.overflowX = "visible";
 }
+
+window.addEventListener("mouseup", function(event) {
+  if (event.target != navBar && event.target.parentNode != navBar) {
+    navBar.className = "menuBar";
+    if (trackButton.classList.contains("transit")) {
+      trackButton.classList.toggle("transit");
+    }
+  }
+});
