@@ -20,6 +20,10 @@ body {
   clear: none;
 }
 
+#HQ_page p {
+  font-size: 0;
+}
+
 figcaption {
   font-family: "ubuntuMonoRegular", "sans-serif";
 }
@@ -522,7 +526,7 @@ a[class*="Link"] {
   width: 100%;
   height: auto;
   position: relative;
-  top: 120vh;
+  top: 0;
 }
 
 .teamIMGWrapper {
@@ -531,31 +535,26 @@ a[class*="Link"] {
 }
 
 .INSTitle {
-  font-family: "averiaSerifLibre", "sans-serif";
+  font-family: "ubuntu", "sans-serif";
   font-size: 3vw;
-  position: relative;
-  left: 8vw;
-  white-space: nowrap;
-}
-
-.INSTitleBG {
   background-color: #c4c4c4;
-  position: absolute;
-  top: 2vw;
-  left: 1vw;
-  width: 23.7vw;
-  height: 1vw;
-  z-index: -1;
+  position: relative;
+  width: fit-content;
+  top: 10vh;
+  left: 7.5vw;
+  padding: 1vw 2vw;
+  white-space: nowrap;
 }
 
 div[class*="Des"] {
   line-height: 3.3vh;
+  font-family: 'ubuntuMonoRegular', 'sans-serif';
 }
 
 .INS1 {
   display: flex;
   position: relative;
-  top: 12vh;
+  margin-top: 24vh;
   padding-left: 12vw;
   align-items: center;
 }
@@ -567,7 +566,6 @@ div[class*="Des"] {
 }
 
 .INS1Des {
-  font-family: "playfairDisplay", "sans-serif";
   font-size: 1.3vw;
   margin-left: 4vw;
 }
@@ -576,7 +574,7 @@ div[class*="Des"] {
   display: flex;
   align-items: center;
   position: relative;
-  top: 22vh;
+  top: 18vh;
   padding-left: 32vw;
 }
 
@@ -587,7 +585,6 @@ div[class*="Des"] {
 }
 
 .INS2Des {
-  font-family: "playfairDisplay", "sans-serif";
   font-size: 1.3vw;
   margin-left: 4vw;
 }
@@ -607,52 +604,17 @@ div[class*="Des"] {
 }
 
 .INS3Des {
-  font-family: "playfairDisplay", "sans-serif";
-  font-size: 1.3vw;
-  margin-left: 4vw;
-}
-
-.mentoTitle {
-  position: relative;
-  font-family: "averiaSerifLibre", "sans-serif";
-  font-size: 3vw;
-  background-color: #c4c4c4;
-  position: relative;
-  width: 21%;
-  margin-top: 50vh;
-  left: 8vw;
-  padding: 1vw 2vw;
-  white-space: nowrap;
-}
-
-.TMPMento {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  position: relative;
-  margin-top: 10vh;
-  padding-left: 32vw;
-}
-
-.mentoPic {
-  border-radius: 100%;
-  width: 100%;
-  height: 100%;
-}
-
-.mentoDes {
-  font-family: "playfairDisplay", "sans-serif";
   font-size: 1.3vw;
   margin-left: 4vw;
 }
 
 .TMPEXPTitle {
-  font-family: "averiaSerifLibre", "sans-serif";
+  font-family: "ubuntu", "sans-serif";
   font-size: 3vw;
   background-color: #c4c4c4;
   position: relative;
-  width: 17.5%;
-  top: 20vh;
+  width: fit-content;
+  margin-top: 38vh;
   left: 8vw;
   padding: 1vw 2vw;
   white-space: nowrap;
@@ -664,7 +626,7 @@ div[class*="Des"] {
   align-items: center;
   justify-content: space-around;
   position: relative;
-  margin-top: 30vh;
+  margin-top: 10vh;
   left: 9vw;
   width: calc(100% - 18vw);
   height: auto;
@@ -721,7 +683,6 @@ div[class*="Des"] {
 }
 
 .EXP1Des {
-  font-family: "playfairDisplay", "sans-serif";
   font-size: 1.2vw;
   white-space: nowrap;
 }
@@ -742,7 +703,6 @@ div[class*="Des"] {
 }
 
 .EXP2Des {
-  font-family: "playfairDisplay", "sans-serif";
   font-size: 1.2vw;
   white-space: nowrap;
 }
@@ -763,17 +723,16 @@ div[class*="Des"] {
 }
 
 .EXP3Des {
-  font-family: "playfairDisplay", "sans-serif";
   font-size: 1.2vw;
   white-space: nowrap;
 }
 
 .TMPHPTitle {
-  font-family: "averiaSerifLibre", "sans-serif";
+  font-family: "ubuntu", "sans-serif";
   font-size: 3vw;
   background-color: #c4c4c4;
   position: relative;
-  width: 20%;
+  width: fit-content;
   margin-top: 10vh;
   left: 8vw;
   padding: 1vw 2vw;
@@ -810,7 +769,6 @@ div[class*="Des"] {
 }
 
 .HP1Des {
-  font-family: "playfairDisplay", "sans-serif";
   font-size: 1.2vw;
   white-space: nowrap;
 }
@@ -831,7 +789,6 @@ div[class*="Des"] {
 }
 
 .HP2Des {
-  font-family: "playfairDisplay", "sans-serif";
   font-size: 1.2vw;
   white-space: nowrap;
 }
@@ -853,7 +810,6 @@ div[class*="Des"] {
 }
 
 .HP3Des {
-  font-family: "playfairDisplay", "sans-serif";
   font-size: 1.2vw;
   white-space: nowrap;
 }
@@ -901,7 +857,6 @@ div[class*="Des"] {
 }
 
 .WIKI1Des {
-  font-family: "playfairDisplay", "sans-serif";
   font-size: 1.3vw;
   margin-left: 4vw;
 }
@@ -922,7 +877,6 @@ div[class*="Des"] {
 }
 
 .WIKI2Des {
-  font-family: "playfairDisplay", "sans-serif";
   font-size: 1.3vw;
   margin-left: 4vw;
 }
@@ -944,7 +898,6 @@ div[class*="Des"] {
 }
 
 .WIKI3Des {
-  font-family: "playfairDisplay", "sans-serif";
   font-size: 1.3vw;
   margin-left: 4vw;
 }
@@ -985,6 +938,59 @@ div[class*="Des"] {
 .MODDes {
   font-family: "playfairDisplay", "sans-serif";
   font-size: 1.3vw;
+}
+
+.mentoTitle {
+  position: relative;
+  font-family: "averiaSerifLibre", "sans-serif";
+  font-size: 3vw;
+  background-color: #c4c4c4;
+  position: relative;
+  width: 21%;
+  margin-top: 20vh;
+  left: 8vw;
+  padding: 1vw 2vw;
+  white-space: nowrap;
+}
+
+.TMPMento1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  padding-left: 16vw;
+  margin-top: 10vh;
+}
+
+.mentoPic1 {
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.mentoDes1 {
+  font-size: 1.3vw;
+  margin-left: 4vw;
+}
+
+.TMPMento2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  padding-left: 32vw;
+  margin: 10vh 0;
+}
+
+.mentoPic2 {
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.mentoDes2 {
+  font-size: 1.3vw;
+  margin-left: 4vw;
 }
 
 /*Education Page*/
