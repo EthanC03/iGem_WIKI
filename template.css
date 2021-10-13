@@ -1701,3 +1701,78 @@ a[class*="Link"] {
   flex-direction: row;
   justify-content: space-evenly;
 }
+
+/*Attribution Page*/
+
+.ATTRIB {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://2021.igem.org/wiki/images/4/42/T--KCIS_NewTaipei--placeHolder.png");
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.ATTRIB .wordContainer {
+  position: absolute;
+  font-family: "dmSerifDisplay", "sans-serif";
+  font-size: 10vw;
+  color: #fff;
+  white-space: nowrap;
+  z-index: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ATTRIB .wordContainer em {
+  position: absolute;
+  font-style: normal;
+  color: #000;
+  top: 50%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  filter: blur(4px);
+}
+
+.ATTRIB .mainContainer {
+  width: 80%;
+  margin-left: none;
+  margin-right: none;
+  float: none;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.ATTRIBTitle {
+  font-family: 'ubuntu', 'sans-serif';
+  font-size: 5vw;
+  padding: 4vw;
+}
+
+.ATTRIBSubTitle {
+  font-family: 'ubuntu', 'sans-serif';
+  font-size: 2vw;
+  padding: 0 4vw;
+}
+
+.ATTRIBT1 {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  margin: 2vw 0;
+}
+
+.ATTRIBT1, td {
+  border: 2px solid #000;
+  border-collapse: collapse;
+}
+
+td {
+  font-family: 'ubuntuMonoRegular', 'sans-serif';
+  font-size: 1.2vw;
+  padding: 1em;
+}
