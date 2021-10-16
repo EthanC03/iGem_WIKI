@@ -255,7 +255,7 @@ a[class*="Link"] {
 .mainContainer {
 	width: 65vw;
 	height: fit-content;
-	margin-top: 110vh;
+	margin-top: 10vh;
 	margin-right: 8vw;
 	margin-bottom: 20vw;
 	float: right;
