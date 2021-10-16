@@ -1803,17 +1803,6 @@ a[class*="Link"] {
 	align-items: center;
 }
 
-.mainContainer {
-	width: 65vw;
-	height: fit-content;
-	margin-top: 110vh;
-	margin-right: 8vw;
-	margin-bottom: 20vw;
-	float: right;
-	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
-	background-color: rgba(255, 212, 128, 0.4);
-}
-
 .entrHeading {
 	font-family: "ubuntu", "sans-serif";
 	font-size: 4vw;
