@@ -1831,15 +1831,9 @@ a[class*="Link"] {
 	width: 100%;
 }
 
-.entrPhoto2Wrapper {
+.entrPhoto2 {
 	position: relative;
-	margin-top: 3.5vh;
-	width: 70%;
 	left: 50%;
 	transform: translateX(-50%);
-	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
-}
-
-.entrPhoto2 {
-	width: 100%;
+	width: 70%;
 }
