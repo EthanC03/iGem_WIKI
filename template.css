@@ -1028,6 +1028,12 @@ div[class*="Des"] {
 	padding: 2.5vw;
 }
 
+.eduSubHeading {
+	font-family: "ubuntu", "sans-serif";
+	font-size: 2vw;
+	padding: 2.5vw;
+}
+
 .eduText {
 	font-family: "ubuntuMonoRegular", "sans-serif";
 	font-size: 1.2vw;
@@ -1141,14 +1147,20 @@ div[class*="Des"] {
 	margin-top: 6vh;
 	margin-bottom: 6vh;
 	width: 80%;
-	text-align: center;
+	text-align: left;
 	font-size: 1.2vw;
 	padding: 1vw;
 	line-height: 3.3vh;
 }
 
+.eduimgWrapper5, .eduimgWrapper6 {
+	height: 35vw;
+	width: 25vw;
+}
+
 .edupic5, .edupic6 {
 	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+	width: 100%;
 }
 
 /*Safety Page*/
@@ -1185,177 +1197,8 @@ div[class*="Des"] {
 	filter: blur(4px);
 }
 
-::-webkit-scrollbar {
-	width: 0;
-}
-
-#scrollPath {
-	position: fixed;
-	top: 20vh;
-	left: 2vw;
-	width: 10px;
-	height: 100%;
-	background: rgba(255, 255, 255, 0.0005);
-	z-index: 10;
-}
-
-#progressBar {
-	position: fixed;
-	top: 20vh;
-	left: 2vw;
-	width: 10px;
-	border-radius: 2vw;
-	background: linear-gradient(to top, #dbff00, #ff0000);
-	z-index: 10;
-}
-
-#progressBar:before {
-	content: "";
-	position: absolute;
-	top: 0;
-	right: 0;
-	width: 100%;
-	height: 100%;
-	background: linear-gradient(to top, #dbff00, #ff0000);
-	z-index: 10;
-	filter: blur(10px);
-}
-
-#progressBar:after {
-	content: "";
-	position: absolute;
-	top: 0;
-	right: 0;
-	width: 100%;
-	height: 100%;
-	background: linear-gradient(to top, #dbff00, #ff0000);
-	z-index: 10;
-	filter: blur(30px);
-}
-
-.returnButton {
-	position: fixed;
-	top: 40vh;
-	right: 2.2vw;
-	z-index: 10;
-	width: 2vw;
-	height: 12vh;
-	cursor: pointer;
-	display: none;
-}
-
-.RB1, .RB2 {
-	position: absolute;
-	right: 1vw;
-	width: 2px;
-	height: 20px;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
-	background-color: #000;
-	cursor: pointer;
-}
-
-.RB1 {
-	transform: translate(-5px) rotate(30deg);
-}
-
-.RB2 {
-	transform: translate(5px) rotate(-30deg);
-}
-
-.RB3 {
-	position: absolute;
-	right: 1vw;
-	width: 2px;
-	height: 80px;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
-	background-color: #000;
-	transform: translateY(4px);
-	cursor: pointer;
-}
-
-.pinnedMenuContainer {
-	position: -webkit-sticky;
-	position: sticky;
-	top: 15vh;
-	width: 0;
-	float: left;
-}
-
-.pinnedMenu {
-	list-style: none;
-	position: absolute;
-	left: -21vw;
-	width: 15vw;
-	padding: 1vw !important;
-	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
-	background-color: rgba(255, 212, 128, 0.4);
-}
-
-.pinnedMenu button {
-	background-color: rgba(196, 196, 196, 0.3);
-	padding: 0.6vw;
-	border-radius: 100%;
-	border: 0.2vw solid #c4c4c4;
-	cursor: pointer;
-	margin-right: 1vw;
-	-webkit-transition: background-color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
-	-moz-transition: background-color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
-	-o-transition: background-color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
-	transition: background-color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
-}
-
-.pinnedMenu button:hover {
-	background-color: #c4c4c4;
-	-webkit-transition: background-color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
-	-moz-transition: background-color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
-	-o-transition: background-color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
-	transition: background-color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
-}
-
-.pinnedMenu li {
-	padding: 1vw 0.6vw;
-}
-
-.pinnedMenu li a {
-	text-decoration: none;
-	font-family: "ubuntuMonoRegular", "sans-serif";
-	font-size: 1.2vw;
-	font-weight: 600;
-	color: #000;
-	white-space: nowrap;
-	line-height: 1.8vw;
-}
-
-a[class*="Link"] {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-}
-
-.REFLink {
-	align-items: center;
-}
-
 .GSLink, .PSSLink {
 	align-items: baseline;
-}
-
-.mainContainer {
-	width: 65vw;
-	height: fit-content;
-	margin-top: 110vh;
-	margin-right: 8vw;
-	margin-bottom: 20vw;
-	float: right;
-	padding-bottom: 1vw;
-	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
-	background-color: rgba(255, 212, 128, 0.4);
 }
 
 .sftyHeading1 {
@@ -1721,14 +1564,14 @@ a[class*="Link"] {
 	filter: blur(4px);
 }
 
-.ATTRIB .mainContainer {
+.ATTRIBMainContainer {
 	width: 80%;
-	margin-left: none;
-	margin-right: none;
-	float: none;
-	position: absolute;
+	margin-top: 10vh;
+	position: relative;
 	left: 50%;
 	transform: translateX(-50%);
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+	background-color: rgba(255, 212, 128, 0.4);
 }
 
 .ATTRIBTitle {
@@ -1751,12 +1594,12 @@ a[class*="Link"] {
 	margin: 2vw 0;
 }
 
-.ATTRIBT1, td {
+.ATTRIBT1, #HQ_page td, td {
 	border: 2px solid #000;
 	border-collapse: collapse;
 }
 
-td {
+#HQ_page td, td {
 	font-family: 'ubuntuMonoRegular', 'sans-serif';
 	font-size: 1.2vw;
 	padding: 1em;
