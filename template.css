@@ -1034,6 +1034,12 @@ div[class*="Des"] {
 	padding: 2.5vw;
 }
 
+.eduSubSubHeading {
+	font-family: "ubuntu", "sans-serif";
+	font-size: 1.3vw;
+	padding: 2.5vw;
+}
+
 .eduText {
 	font-family: "ubuntuMonoRegular", "sans-serif";
 	font-size: 1.2vw;
@@ -1158,9 +1164,14 @@ div[class*="Des"] {
 	width: 25vw;
 }
 
-.edupic5, .edupic6 {
+.edupic5, .edupic6, .edupic7, .edupic8, .edupic9, .edupic10 {
 	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
 	width: 100%;
+}
+
+.eduimgWrapper {
+	width: 30vw;
+	margin: 4vh auto;
 }
 
 /*Safety Page*/
