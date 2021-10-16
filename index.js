@@ -11,6 +11,6 @@ window.onscroll = function () {
   }
 };
 
-$("#rb").bind("click", function () {
+$("#rb").click(function () {
   $("html, body").animate({ scrollTop: 0 });
 });
