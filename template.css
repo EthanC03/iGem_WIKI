@@ -2051,3 +2051,10 @@ div[class*="Des"] {
 	margin-bottom: 7.5vh;
 	line-height: 3.3vh;
 }
+
+.video1 {
+	position: relative;
+	margin-top: 4vh;
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
