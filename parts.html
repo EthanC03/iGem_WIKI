@@ -1,13 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parts</title>
+    <link rel="stylesheet" type="text/css"
+        href="https://2021.igem.org/Template:KCIS_NewTaipei/fonts.css%26action%3Draw%26ctype%3Dtext/css" />
+    <link rel="stylesheet" href="template.css" />
+    <!--<link rel="stylesheet" type="text/css"
+              href="https://2021.igem.org/Template:KCIS_NewTaipei/template.css%26action%3Draw%26ctype%3Dtext/css"
+              />-->
 </head>
-<body>
-    
-</body>
-</html>
 
+<body>
+    <div class="PART" id="part">
+        <div class="wordContainer">
+            PARTS
+            <em>PARTS</em>
+        </div>
+    </div>
+    <div id="progressBar"></div>
+    <div id="scrollPath"></div>
+    <section class="mainContainer">
+        <div class="returnButton" id="rb">
+            <div class="RB1"></div>
+            <div class="RB2"></div>
+            <div class="RB3"></div>
+        </div>
+        <div class="pinnedMenuContainer" id="stickyMenu">
+            <ul class="pinnedMenu">
+                <li>
+                    <a href="#descLink" class="descLink">
+                        <button></button>
+                        DESCRIPTION
+                    </a>
+                </li>
+                <li>
+                    <a href="#ptcoLink" class="ptcoLink">
+                        <button></button>
+                        PARTS
+                        <br />
+                        COLLECTION
+                    </a>
+                </li>
+                <li>
+                    <a href="#basLink" class="basLink">
+                        <button></button>
+                        BASIC
+                        <br />
+                        PARTS
+                    </a>
+                </li>
+                <li>
+                    <a href="#compLink" class="compLink">
+                        <button></button>
+                        COMPOSITE
+                        <br />
+                        PARTS
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="partHeading" id="descLink">Description</div>
+        <div class="partContent">
+            Our assigned part numbers are BBa_K3729000 to BBa_K372999. Our parts collection consists of
+            Beta-hydroxybutyryl-CoA dehydrogenase sequence and different Butyryl-CoA dehydrogenase sequences as well as
+            their expression constructs. Different promoters and RBSs are inserted in front of the ORFs and terminators
+            at the end of the ORFs to form expression constructs upregulating the expression of each enzyme. This parts
+            collection provides various methods to maximize the synthesis of butyrate and ultimately the binding
+            activity of vitamin D receptors.
+        </div>
+        <div class="partHeading" id="ptcoLink">Parts Collection</div>
+        <table class="table">
+            <tr>
+                <td>Part Number</td>
+                <td>Part Name</td>
+                <td>Diagram</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="http://parts.igem.org/Part:BBa_K3729000">BBa_K3729000</a>
+                </td>
+                <td>Butyryl-CoA <br /> dehydrogenase 1</td>
+                <td>
+                    <img src="https://2021.igem.org/wiki/images/2/2d/T--KCIS_NewTaipei--Bcd_Gene_1.png" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="http://parts.igem.org/Part:BBa_K3729001">BBa_K3729001</a>
+                </td>
+                <td>Butyryl-CoA <br /> dehydrogenase 2</td>
+                <td>
+                    <img src="https://2021.igem.org/wiki/images/7/71/T--KCIS_NewTaipei--Bcd_Gene_2.png" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="http://parts.igem.org/Part:BBa_K3729002">BBa_K3729002</a>
+                </td>
+                <td>Beta-hydroxybutyryl-CoA <br /> dehydrogenase</td>
+                <td>
+                    <img src="https://2021.igem.org/wiki/images/4/41/T--KCIS_NewTaipei--Hbd_Gene.png" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="http://parts.igem.org/Part:BBa_K3729003">BBa_K3729003</a>
+                </td>
+                <td>Strong promoter and <br /> RBS Butyryl-CoA <br /> dehydrogenase 1 <br /> Expression Construct</td>
+                <td>
+                    <img src="https://2021.igem.org/wiki/images/f/fc/T--KCIS_NewTaipei--1_complex.png" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="http://parts.igem.org/Part:BBa_K3729004">BBa_K3729004</a>
+                </td>
+                <td>Strong promoter and <br /> RBS Butyryl-CoA <br /> dehydrogenase 2 <br /> Expression Construct</td>
+                <td>
+                    <img src="https://2021.igem.org/wiki/images/4/44/T--KCIS_NewTaipei--2_complex.png" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="http://parts.igem.org/Part:BBa_K3729005">BBa_K3729005</a>
+                </td>
+                <td>pET Parts + <br /> Beta-hydroxybutyryl-CoA <br /> dehydrogenase <br /> Expressing Construct</td>
+                <td>
+                    <img src="https://2021.igem.org/wiki/images/f/fe/T--KCIS_NewTaipei--Hbd_complex.png" />
+                </td>
+            </tr>
+        </table>
+        <div class="partHeading" id="basLink">Basic Parts</div>
+        <div class="partContent">
+            Our basic parts include ORFs for butyryl-CoA dehydrogenase and beta-hydroxybutyryl-CoA dehydrogenase.
+        </div>
+        <table class="table">
+            <tr>
+                <td>Part Number</td>
+                <td>Part Name</td>
+                <td>Diagram</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="http://parts.igem.org/Part:BBa_K3729000">BBa_K3729000</a>
+                </td>
+                <td>Butyryl-CoA <br /> dehydrogenase 1</td>
+                <td>
+                    <img src="https://2021.igem.org/wiki/images/2/2d/T--KCIS_NewTaipei--Bcd_Gene_1.png" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="http://parts.igem.org/Part:BBa_K3729001">BBa_K3729001</a>
+                </td>
+                <td>Butyryl-CoA <br /> dehydrogenase 2</td>
+                <td>
+                    <img src="https://2021.igem.org/wiki/images/7/71/T--KCIS_NewTaipei--Bcd_Gene_2.png" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="http://parts.igem.org/Part:BBa_K3729002">BBa_K3729002</a>
+                </td>
+                <td>Beta-hydroxybutyryl-CoA <br /> dehydrogenase</td>
+                <td>
+                    <img src="https://2021.igem.org/wiki/images/4/41/T--KCIS_NewTaipei--Hbd_Gene.png" />
+                </td>
+            </tr>
+        </table>
+        <div class="partHeading" id="compLink">Composite Parts</div>
+        <div class="partContent">
+            Our composite parts include the different constructs for the expression of butyryl-CoA dehydrogenase and
+            beta-hydroxybutyryl-CoA dehydrogenase enzymes.
+        </div>
+        <table class="tableEnding">
+            <tr>
+                <td>Part Number</td>
+                <td>Part Name</td>
+                <td>Diagram</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="http://parts.igem.org/Part:BBa_K3729003">BBa_K3729003</a>
+                </td>
+                <td>Strong promoter and <br /> RBS Butyryl-CoA <br /> dehydrogenase 1 <br /> Expression Construct</td>
+                <td>
+                    <img src="https://2021.igem.org/wiki/images/f/fc/T--KCIS_NewTaipei--1_complex.png" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="http://parts.igem.org/Part:BBa_K3729004">BBa_K3729004</a>
+                </td>
+                <td>Strong promoter and <br /> RBS Butyryl-CoA <br /> dehydrogenase 2 <br /> Expression Construct</td>
+                <td>
+                    <img src="https://2021.igem.org/wiki/images/4/44/T--KCIS_NewTaipei--2_complex.png" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="http://parts.igem.org/Part:BBa_K3729005">BBa_K3729005</a>
+                </td>
+                <td>pET Parts + <br /> Beta-hydroxybutyryl-CoA <br /> dehydrogenase <br /> Expressing Construct</td>
+                <td>
+                    <img src="https://2021.igem.org/wiki/images/f/fe/T--KCIS_NewTaipei--Hbd_complex.png" />
+                </td>
+            </tr>
+        </table>
+    </section>
+</body>
+
+</html>
