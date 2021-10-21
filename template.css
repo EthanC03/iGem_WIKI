@@ -1739,8 +1739,8 @@ div[class*="Des"] {
 .hdwrPhoto1Wrapper {
 	position: relative;
 	margin-top: 3.5vh;
-	margin-bottom: 3.5vh;
-	width: 35%;
+	margin-bottom: 2vh;
+	width: 50%;
 	left: 50%;
 	transform: translateX(-50%);
 	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
@@ -1750,10 +1750,34 @@ div[class*="Des"] {
 	width: 100%;
 }
 
-.hdwrPhoto2 {
-	position: relative;
-	margin-top: 3.5vh;
-	left: 50%;
-	transform: translateX(-50%);
-	width: 70%;
+.hdwrPhotoFlexContainer {
+	display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+	margin-top: 2.5vh;
+	margin-bottom: 1vh;
+	margin-left: 9vw;
+	margin-right: 9vw;
+}
+
+.capPhoto {
+	width: calc(100% - 45vw);
+	height: 100%;
+	background-color: rgba(245, 141, 141, 0.26);
+	padding: 1vw;
+	margin-bottom: 3vh;
+	text-align: center;
+	margin: 1.5vh auto 3vh;
+	font-size: 1.2vw;
+}
+
+.hdwrContent2 {
+	font-family: "ubuntuMonoRegular", "sans-serif";
+	font-size: 1.2vw;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5vh;
+	line-height: 3.3vh;
 }
