@@ -2021,7 +2021,7 @@ div[class*="Des"] {
 
 .cntrbContentEnding {
 	font-family: "ubuntuMonoRegular", "sans-serif";
-	font-size: 1.6vw;
+	font-size: 1.2vw;
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
@@ -2198,4 +2198,70 @@ div[class*="Des"] {
 
 .image {
 	width: 100%;
+}
+
+/* Modeling Page */
+
+.MD {
+	width: 100%;
+	height: 100vh;
+	background-image: url("https://2021.igem.org/wiki/images/4/42/T--KCIS_NewTaipei--placeHolder.png");
+	background-size: 100vw 100vh;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.MD .wordContainer {
+	position: absolute;
+	font-family: "dmSerifDisplay", "sans-serif";
+	font-size: 9.5vw;
+	color: #fff;
+	white-space: nowrap;
+	z-index: 0;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.MD .wordContainer em {
+	position: absolute;
+	font-style: normal;
+	color: #000;
+	top: 50%;
+	left: 49%;
+	transform: translate(-50%, -50%);
+	z-index: -1;
+	filter: blur(4px);
+}
+
+.mdHeading {
+	font-family: "ubuntu", "sans-serif";
+	font-size: 4vw;
+	padding: 2.5vw;
+}
+
+.mdContent {
+	font-family: "ubuntuMonoRegular", "sans-serif";
+	font-size: 1.2vw;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 3.3vh;
+}
+
+.mdContentEnding {
+	font-family: "ubuntuMonoRegular", "sans-serif";
+	font-size: 1.2vw;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 7.5vh;
+	line-height: 3.3vh;
+}
+
+.pdf {
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-bottom: 5vh;
 }
