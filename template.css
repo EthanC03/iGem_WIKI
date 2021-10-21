@@ -5,15 +5,11 @@
 
 html {
 	width: 100%;
-	height: 100%;
-	overflow-x: hidden;
 }
 
 body {
 	width: 100%;
-	height: 100%;
 	background-color: rgba(255, 212, 128, 0.35);
-	overflow-x: hidden;
 }
 
 .visualClear {
@@ -28,11 +24,20 @@ figcaption {
 	font-family: "ubuntuMonoRegular", "sans-serif";
 }
 
+#progressBar {
+	position: fixed;
+	top: 0;
+	width: 10px;
+	height: 0%;
+	background-color: #E69900;
+	display: none;
+}
+
 /*Human Practice Page*/
 
 .HP {
 	width: 100%;
-	height: 100%;
+	height: 100vh;
 	background-image: url("https://2021.igem.org/wiki/images/3/36/T--KCIS_NewTaipei--humanPracticeBG.jpg");
 	background-repeat: no-repeat;
 	background-size: 2000px 100vh;
@@ -45,7 +50,7 @@ figcaption {
 	font-size: 10vw;
 	color: #fff;
 	position: absolute;
-	padding: 40vh 5.6vw;
+	padding: 36vh 10vw;
 	white-space: nowrap;
 }
 
@@ -70,6 +75,22 @@ figcaption {
 	margin-left: auto;
 	margin-right: auto;
 	line-height: 3.3vh;
+}
+
+.HPIMG {
+	width: 100%;
+}
+
+.HPIMGWrapper {
+	width: 30%;
+	margin: 2vh auto;
+}
+
+.HPFigCap {
+	font-family: 'ubuntuMonoRegular', 'sans-serif';
+	font-size: 1.2vw;
+	width: fit-content;
+	margin: 0 auto;
 }
 
 /*Description Page*/
@@ -104,54 +125,6 @@ figcaption {
 	transform: translate(-50%, -50%);
 	z-index: -1;
 	filter: blur(4px);
-}
-
-::-webkit-scrollbar {
-	width: 0;
-}
-
-#scrollPath {
-	position: fixed;
-	top: 20vh;
-	left: 2vw;
-	width: 10px;
-	height: 100%;
-	background: rgba(255, 255, 255, 0.0005);
-	z-index: 10;
-}
-
-#progressBar {
-	position: fixed;
-	top: 20vh;
-	left: 2vw;
-	width: 10px;
-	border-radius: 2vw;
-	background: linear-gradient(to top, #dbff00, #ff0000);
-	z-index: 10;
-}
-
-#progressBar:before {
-	content: "";
-	position: absolute;
-	top: 0;
-	right: 0;
-	width: 100%;
-	height: 100%;
-	background: linear-gradient(to top, #dbff00, #ff0000);
-	z-index: 10;
-	filter: blur(10px);
-}
-
-#progressBar:after {
-	content: "";
-	position: absolute;
-	top: 0;
-	right: 0;
-	width: 100%;
-	height: 100%;
-	background: linear-gradient(to top, #dbff00, #ff0000);
-	z-index: 10;
-	filter: blur(30px);
 }
 
 .returnButton {
@@ -493,7 +466,7 @@ a[class*="Link"] {
 	position: absolute;
 	font-family: "dmSerifDisplay", "sans-serif";
 	font-size: 10vw;
-	color: #000;
+	color: #FFF;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -504,7 +477,7 @@ a[class*="Link"] {
 .TMP .wordContainer em {
 	position: absolute;
 	font-style: normal;
-	color: #fff;
+	color: #000;
 	top: 50%;
 	left: 48%;
 	transform: translate(-50%, -50%);
@@ -1766,9 +1739,9 @@ div[class*="Des"] {
 
 .hdwrPhotoFlexContainer {
 	display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
 	margin-top: 2.5vh;
 	margin-bottom: 1vh;
 	margin-left: 9vw;

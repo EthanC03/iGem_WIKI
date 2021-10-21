@@ -1,23 +1,12 @@
-let progressBar = document.getElementById("progressBar");
-let totalHeight = document.body.scrollHeight - window.innerHeight;
+const totalHeight = document.body.scrollHeight - window.innerHeight;
+const progressBar = document.getElementById("progressBar");
 
-window.onscroll = function () {
-    let progressHeight = (window.pageYOffset / totalHeight) * 40;
+window.onscroll = () => {
+    let progressHeight = (window.pageYOffset / totalHeight) * 100;
     progressBar.style.height = progressHeight + "%";
-    
-    if (progressHeight >= "5") {
-        $('#rb').fadeIn();
-    } else {
-        $('#rb').fadeOut();
-    }
-
-    if ($(window).scrollTop() + $(window).height() >= $(document).height()) {
-        $('#progressBar').fadeOut();
-    } else {
+    if (progressHeight > 20 && progressHeight < 100) {
         $('#progressBar').fadeIn();
+    } else {
+        $('#progressBar').fadeOut();
     }
-}
-
-$('#rb').click(function () {
-    $('html, body').animate({ scrollTop: 0 });
-});
+};
