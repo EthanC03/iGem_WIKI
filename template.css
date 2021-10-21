@@ -166,52 +166,6 @@ figcaption {
 	filter: blur(4px);
 }
 
-.returnButton {
-	position: fixed;
-	top: 40vh;
-	right: 2.2vw;
-	z-index: 10;
-	width: 2vw;
-	height: 12vh;
-	cursor: pointer;
-	display: none;
-}
-
-.RB1, .RB2 {
-	position: absolute;
-	right: 1vw;
-	width: 2px;
-	height: 20px;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
-	background-color: #000;
-	cursor: pointer;
-}
-
-.RB1 {
-	transform: translate(-5px) rotate(30deg);
-}
-
-.RB2 {
-	transform: translate(5px) rotate(-30deg);
-}
-
-.RB3 {
-	position: absolute;
-	right: 1vw;
-	width: 2px;
-	height: 80px;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
-	background-color: #000;
-	transform: translateY(4px);
-	cursor: pointer;
-}
-
 .pinnedMenuContainer {
 	position: -webkit-sticky;
 	position: sticky;
@@ -2236,21 +2190,21 @@ div[class*="Des"] {
 	width: 100%;
 }
 
-/* Modeling Page */
+/*Software Page*/
 
-.MD {
+.SW {
 	width: 100%;
 	height: 100vh;
-	background-image: url("https://2021.igem.org/wiki/images/4/42/T--KCIS_NewTaipei--placeHolder.png");
+	background-image: url("https://2021.igem.org/wiki/images/b/be/T--KCIS_NewTaipei--Software.png");
 	background-size: 100vw 100vh;
 	background-repeat: no-repeat;
 	position: relative;
 }
 
-.MD .wordContainer {
+.SW .wordContainer {
 	position: absolute;
 	font-family: "dmSerifDisplay", "sans-serif";
-	font-size: 9.5vw;
+	font-size: 10vw;
 	color: #fff;
 	white-space: nowrap;
 	z-index: 0;
@@ -2259,7 +2213,7 @@ div[class*="Des"] {
 	transform: translate(-50%, -50%);
 }
 
-.MD .wordContainer em {
+.SW .wordContainer em {
 	position: absolute;
 	font-style: normal;
 	color: #000;
@@ -2270,34 +2224,39 @@ div[class*="Des"] {
 	filter: blur(4px);
 }
 
-.mdHeading {
-	font-family: "ubuntu", "sans-serif";
-	font-size: 4vw;
-	padding: 3.5vw;
+.SWHeading {
+	font-family: 'ubuntu', 'sans-serif';
+	font-size: 5vw;
+	padding: 4vw;
 }
 
-.mdContent {
+.SWTxt {
 	font-family: "ubuntuMonoRegular", "sans-serif";
 	font-size: 1.2vw;
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 	line-height: 3.3vh;
+	padding-bottom: 4vh;
 }
 
-.mdContentEnding {
-	font-family: "ubuntuMonoRegular", "sans-serif";
-	font-size: 1.2vw;
-	width: 80%;
-	margin-left: auto;
+.SWMainContainer {
+	width: 80vw;
+	height: fit-content;
+	margin-top: 10vh;
 	margin-right: auto;
-	margin-bottom: 7.5vh;
-	line-height: 3.3vh;
+	margin-left: auto;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+	background-color: rgba(255, 212, 128, 0.4);
 }
 
-.pdf {
-	position: relative;
-	left: 50%;
-	transform: translateX(-50%);
-	margin-bottom: 5vh;
+.circle {
+	width: 4vw;
+	height: 4vw;
+	position: fixed;
+	background-color: #faad13;
+	z-index: 100;
+	bottom: 0;
+	border-radius: 2vw;
+	margin: 2vw;
 }
