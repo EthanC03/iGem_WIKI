@@ -71,12 +71,34 @@ figcaption {
 	padding: 4vw;
 }
 
+.HPHeading2 {
+	font-family: 'ubuntu', 'sans-serif';
+	font-size: 4vw;
+	padding: 3.5vw;
+}
+
+.HPHeading3 {
+	font-family: 'ubuntu', 'sans-serif';
+	font-size: 3vw;
+	padding: 3vw;
+}
+
 .HPText {
 	font-family: 'ubuntuMonoRegular', 'sans-serif';
 	font-size: 1.2vw;
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
+	line-height: 3.3vh;
+}
+
+.HPTextEnding {
+	font-family: 'ubuntuMonoRegular', 'sans-serif';
+	font-size: 1.2vw;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 4vh;
 	line-height: 3.3vh;
 }
 
@@ -91,9 +113,24 @@ figcaption {
 
 .HPFigCap {
 	font-family: 'ubuntuMonoRegular', 'sans-serif';
+	width: calc(100% - 45vw);
+	height: 100%;
+	background-color: rgba(245, 141, 141, 0.26);
+	padding: 1vw;
+	margin-bottom: 3vh;
+	text-align: center;
+	margin: 1.5vh auto 3vh;
 	font-size: 1.2vw;
-	width: fit-content;
-	margin: 0 auto;
+}
+
+.HPPeopleWrapper {
+	width: 40%;
+	position: relative;
+	margin: auto;
+}
+
+.peoplePhoto {
+	width: 100%;
 }
 
 /*Description Page*/
@@ -2032,7 +2069,7 @@ div[class*="Des"] {
 
 .partContent {
 	font-family: "ubuntuMonoRegular", "sans-serif";
-	font-size: 1.6vw;
+	font-size: 1.2vw;
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
@@ -2223,4 +2260,25 @@ div[class*="Des"] {
 	bottom: 0;
 	border-radius: 2vw;
 	margin: 2vw;
+}
+
+.mdHeading {
+	font-family: "ubuntu", "sans-serif";
+	font-size: 4vw;
+}
+
+.mdContent {
+	font-family: "ubuntuMonoRegular", "sans-serif";
+	font-size: 1.2vw;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 3.3vh;
+}
+
+.mdContentEnding {
+	left: 50%;
+	transform: translateX(-50%);
+	margin-bottom: 5vh;
+	padding-bottom: 4vh;
 }
