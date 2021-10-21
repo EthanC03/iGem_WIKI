@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Implementation</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://2021.igem.org/Template:KCIS_NewTaipei/fonts.css%26action%3Draw%26ctype%3Dtext/css"
+    />
+    <link rel="stylesheet" href="template.css" />
+    <!--<link rel="stylesheet" type="text/css"
+                href="https://2021.igem.org/Template:KCIS_NewTaipei/template.css%26action%3Draw%26ctype%3Dtext/css"
+                />-->
+</head>
+
+<body>
+    <div class="PROOF" id="proof">
+        <div class="wordContainer">
+            PROOF OF CONCEPT
+            <em>PROOF OF CONCEPT</em>
+        </div>
+    </div>
+    <div id="progressBar"></div>
+    <div id="scrollPath"></div>
+    <section class="mainContainer">
+        <div class="returnButton" id="rb">
+            <div class="RB1"></div>
+            <div class="RB2"></div>
+            <div class="RB3"></div>
+        </div>
+        <div class="pinnedMenuContainer1" id="stickyMenu">
+            <ul class="pinnedMenu">
+                <li>
+                    <a href="#summLink" class="summLink">
+                        <button></button>
+                        SUMMARY
+                    </a>
+                </li>
+                <li>
+                    <a href="#protLink" class="protLink">
+                        <button></button>
+                        PROTEIN
+                        <br />
+                        EXPRESSION
+                        <br />
+                        RESULTS
+                    </a>
+                </li>
+                <li>
+                    <a href="#futuLink" class="futureexpLink">
+                        <button></button>
+                        FUTURE
+                        <br />
+                        EXPERIMENT
+                    </a>
+                </li>
+                <li>
+                    <a href="#biggerLink" class="biggerLink">
+                        <button></button>
+                        THE BIGGER
+                        <br />
+                        PICTURE
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="proofHeading" id="summLink">Summary</div>
+        <div class="proofContent">
+            After confirming the engineering of our DNA constructs, we further prove that our project is likely to work
+            in a relevant context. We confirmed the expression of our target protein beta-hydroxybutyryl-CoA
+            dehydrogenase with SDS-PAGE and planned further experiments to test the increase of butyrate production and
+            the upregulation of Vitamin D Receptor (VDR) expression by butyrate.
+        </div>
+        <div class="proofHeading" id="protLink">Protein Expression Result</div>
+        <div class="imageWrapper">
+            <img src="https://2021.igem.org/wiki/images/c/c2/T--KCIS_NewTaipei--SDS-Page.png" class="image" />
+        </div>
+        <figcaption class="capPhoto">
+            *Fig.1 The SDS-PAGE result shows that our HBD protein is overexpressed in induced cells colony 1 (Q1),
+            colony 2 (Q2), and colony 3 (Q3)
+        </figcaption>
+        <div class="proofContent">
+            Found via RCSB Protein Data Bank, the size of beta-hydroxybutyryl-CoA dehydrogenase is determined to be
+            37kDa. We picked 3 colonies and ran SDS-PAGE with Tris-Glycerin 4-20% as the marker; each colony was grown
+            under both induced and uninduced conditions. Uninduce colony has its repressor attached to the operator,
+            therefore transcription will not occur; on the other hand, induced colonies by IPTG, the repressor will fall
+            off from the operator, therefore the gene will be properly expressed by the polymerase. According to figure
+            1, HBD protein is overexpressed in induced cells colony 1 (Q1), colony 2 (Q2). However, the OD 600 result
+            shows that the Q3 has low bacteria density. Due to the lack of concentration of colony 3 (Q3), its protein
+            expression isn’t as obvious as Q1 and Q2.
+        </div>
+        <div class="proofHeading" id="futuLink">Future Experiment</div>
+        <div class="proofHeading2">Upregulation of Butyrate Synthesis</div>
+        <div class="proofContent">
+            To ensure the feasibility of our project, we planned to prove the HBD and BCD proteins’ enhancement of
+            butyrate synthesis by testing both rate-limiting steps.
+            We first added a fixed amount of acetyl-CoA and NADH for the testing of HBD, and butyric acid, acetyl-CoA,
+            FAD, and NAD+ for the testing of BCD, while varying the concentration of purified beta-hydroxybutyryl-CoA
+            dehydrogenase and butyryl-CoA dehydrogenase respectively. With a spectrophotometer, we then measured the
+            rate of change of the concentration of the reactant NADH to determine the activity of the protein.
+            For the results, we expected the rate of change of NADH's concentration to increase along with the rise of
+            the concentration of beta-hydroxybutyryl-CoA dehydrogenase and butyryl-CoA dehydrogenase. This would confirm
+            that the proteins encoded by our DNA constructs, HBD and BCD, could successfully upregulate the production
+            of butyrate.
+        </div>
+        <div class="proofHeading2">Upregulation of Vitamin D Receptor Expression </div>
+        <div class="proofContent">
+            After confirming the increase of butyrate, we further planned to test the relationship between butyrate and
+            the upregulation of Vitamin D receptor (VDR) expression. We plan to treat HCT cells, also known as human
+            colorectal carcinoma cell lines. HCT cell lines are used because the microbiome in the colorectal cells
+            absorbs butyrate.
+            <br />
+            <br />
+        </div>
+        <div class="proofHeading" id="biggerLink">The Bigger Picture</div>
+        <div class="proofContentEnding">
+            Our experiment results serve to prove the viability of our project. By combining our experimental results
+            with our hardware designs (which includes fermentation kit and other relative contents), we can truly put
+            our project into practice, implementing our ideas as a practical and efficient way for individuals to combat
+            vitamin D deficiency.
+        </div>
+    </section>
+    <script type="text/javascript"
+        src="https://2021.igem.org/Template:KCIS_NewTaipei/template.js%26action%3Draw%26ctype%3Dtext/javascript"></script>
+</body>
+
+</html>
