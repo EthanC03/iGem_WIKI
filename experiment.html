@@ -1,0 +1,173 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment</title>
+    <link rel="stylesheet" type="text/css"
+        href="https://2021.igem.org/Template:KCIS_NewTaipei/fonts.css%26action%3Draw%26ctype%3Dtext/css" />
+    <link rel="stylesheet" href="template.css" />
+    <!--<link rel="stylesheet" type="text/css"
+              href="https://2021.igem.org/Template:KCIS_NewTaipei/template.css%26action%3Draw%26ctype%3Dtext/css"
+              />-->
+</head>
+
+<body>
+    <div class="EXP" id="exp">
+        <div class="wordContainer">
+            EXPERIMENT
+            <em>EXPERIMENT</em>
+        </div>
+    </div>
+    <div id="progressBar"></div>
+    <div id="scrollPath"></div>
+    <section class="mainContainer">
+        <div class="returnButton" id="rb">
+            <div class="RB1"></div>
+            <div class="RB2"></div>
+            <div class="RB3"></div>
+        </div>
+        <div class="pinnedMenuContainer" id="stickyMenu">
+            <ul class="pinnedMenu">
+                <li>
+                    <a href="#pdLink" class="pdLink">
+                        <button></button>
+                        PARTS
+                        <br />
+                        DESCRIPTION
+                    </a>
+                </li>
+                <li>
+                    <a href="#confLink" class="confLink">
+                        <button></button>
+                        CONFIRMATION
+                        <br />
+                        OF HBD & BCD
+                        <br />
+                        OVEREXPRESSION
+                    </a>
+                </li>
+                <li>
+                    <a href="#assayLink" class="assayLink">
+                        <button></button>
+                        ASSAYS OF
+                        <br />
+                        HBD & BCD
+                        <br />
+                        ACTIVITY
+                    </a>
+                </li>
+                <li>
+                    <a href="#uprLink" class="uprLink">
+                        <button></button>
+                        UPREGULATION
+                        <br />
+                        OF VDR INDUCED
+                        <br />
+                        BY BUTYRATE
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="expContentHeading">
+            Due to COVID-19, we couldn’t finish our wet lab since we only had one month to do the experiment. Therefore
+            we could only
+        </div>
+        <div class="expHeading" id="pdLink">Parts Description</div>
+        <div class="expPhotoWrapper1">
+            <img src="https://2021.igem.org/wiki/images/6/60/T--KCIS_NewTaipei--exp_Figure1.png" class="photo1" />
+        </div>
+        <div class="expContent">
+            Our HBD was not synthesized as a composite part, therefore it was obtained directly from E.coli Nissle
+            1917 strain (EcN). To construct the HBD expression plasmid, primers possessing the restriction enzyme
+            sites EcoRI and XhoI were used to amplify the HBD gene via PCR from EcN genomic DNA. The HBD gene was
+            inserted into pET28a.
+            <br />
+            <br />
+            On the other hand, the BCD gene, as a composite part, was designed using Benchling. The BCD gene
+            sequence was obtained from the genomic DNA of Faecalibacterium prausnitzii. The BCD gene, flanked by
+            restriction sites EcoRI and SpeI, was synthesized by Twist Bioscience and was inserted into pSB1C3 via
+            BioBrick Assembly.
+        </div>
+        <div class="expPhotoWrapperSmall">
+            <img src="https://2021.igem.org/wiki/images/b/ba/T--KCIS_NewTaipei--exp_Figure2.png" class="photo2" />
+        </div>
+        <div class="expContent">
+            We then transformed engineered pET28a and pSB1C3 into E.coli DH5𝛼 competent cell separately. The
+            bacterial strains were cultured in Luria Broth medium, including kanamycin for pET28a, chloramphenicol
+            for pSB1C3. After using colony PCR to test the success of transformation, the plasmids were extracted
+            using Miniprep and inserted into BLR(DE3) competent cells since DH5𝛼 does not acquire the T7 promoter
+            system. The culture was subsequently left to grow overnight in LB medium for protein expression assay.
+        </div>
+        <div class="expPhotoWrapperSmall">
+            <img src="https://2021.igem.org/wiki/images/2/25/T--KCIS_NewTaipei--exp_Figure3.png" class="photo3" />
+        </div>
+        <div class="expHeading" id="confLink">Confirmation of HBD & BCD Overexpression</div>
+        <div class="expContent">
+            Since pET28a is a lac operon inducible system, we added IPTG into our bacterial culture to induce protein
+            expression. We set the IPTG induced culture as the experimental group, while uninduced and culture as
+            negative control; the wildtype culture was included in the negative control group to prevent leaky
+            expression from the lac operon. For the BCD construct, since lac operon was not present, we set the
+            engineered culture as the positive control, while wildtype culture as negative control.
+            <br />
+            <br />
+            We lysed our culture by heating the sample. Both HBD and BCD protein were purified using nickel column
+            chromatography. The concentration of the protein was determined using a spectrophotometer at a wavelength of
+            280 nm.
+        </div>
+        <div class="expHeading" id="assayLink">Assays of HBD and BCD Activity</div>
+        <div class="expHeading_HBD">HBD</div>
+        <div class="expContent">
+            The HBD protein catalyzes the formation of 3-hydroxybutyryl-CoA from acetyl-CoA, while oxidizing NADH to
+            NAD+.
+        </div>
+        <div class="expPhotoWrapperBig">
+            <img src="https://2021.igem.org/wiki/images/f/fd/T--KCIS_NewTaipei--exp_Figure4.png" class="photo4" />
+        </div>
+        <div class="expContent">
+            We added a fixed amount of acetyl-CoA and NADH, while varying the concentration of purified HBD protein. The
+            activity of the protein was accessed through measuring the concentration of the reactant NADH, with a
+            spectrophotometer at a wavelength of 340 nm.
+        </div>
+        <div class="expHeading_BCD">BCD</div>
+        <div class="expContent">
+            We implemented the FadB-coupled assay proposed by Park et al. The BCD catalysis reaction was coupled with
+            that of FadB, which catalyzes the formation of acetoacetyl-CoA to crotonyl-CoA, with simultaneous reduction
+            of NAD+ to NADH.
+        </div>
+        <div class="expPhotoWrapperBig">
+            <img src="https://2021.igem.org/wiki/images/3/39/T--KCIS_NewTaipei--exp_Figure5.png" class="photo5" />
+        </div>
+        <div class="expContent">
+            We added a fixed amount of butyric acid, acetyl-CoA, FAD, and NAD+, while varying the concentration of the
+            purified BCD protein, for the reverse pathway to proceed. The activity of the protein was again accessed
+            through measuring the concentration of the product NADH using the same method mentioned above.
+        </div>
+        <div class="expHeading" id="uprLink">Upregulation of VDR Induced by Butyrate</div>
+        <div class="expContent">
+            In order to confirm that butyrate is able to upregulate VDR, we treated HCT cell lines with various dosages
+            of butyrate to quantify VDR protein expression. Sodium butyrate was dissolved in PBS. The dosage of butyrate
+            ranged from 0mM (PBS only) to 3mM, with a constant leap of 0.5mM. The HCT cell lines were cultured in DMEM.
+            The medium of culture was replaced every day.
+        </div>
+        <div class="expPhotoWrapperBig">
+            <img src="https://2021.igem.org/wiki/images/e/e0/T--KCIS_NewTaipei--exp_Figure6.png" class="photo6" />
+        </div>
+        <div class="expContentEnding">
+            We left HCT cells to grow in a medium containing butyrate for 48 hours. The cells were then harvested,
+            washed in ice-cold PBS, and lysed by heating. Protease inhibitors were added to prevent protein degradation.
+            The lysate was then sonicated, centrifuged, and quantified using Bio-Rad protein assay.
+            <br />
+            <br />
+            After quantification, the lysate was again analyzed using SDS-PAGE. The band at 48kDa was identified and
+            quantified using Bio-Rad Image software. The experiment procedure was repeated three times. The datas were
+            used for modeling efforts.
+        </div>
+
+
+
+    </section>
+</body>
+
+</html>

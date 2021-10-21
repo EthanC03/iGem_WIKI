@@ -1781,3 +1781,200 @@ div[class*="Des"] {
 	margin-bottom: 5vh;
 	line-height: 3.3vh;
 }
+
+/* experiment page*/
+
+.EXP {
+	width: 100%;
+	height: 100vh;
+	background-image: url("https://2021.igem.org/wiki/images/4/42/T--KCIS_NewTaipei--placeHolder.png");
+	background-size: 100vw 100vh;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.EXP .wordContainer {
+	position: absolute;
+	font-family: "dmSerifDisplay", "sans-serif";
+	font-size: 9.5vw;
+	color: #fff;
+	white-space: nowrap;
+	z-index: 0;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.EXP .wordContainer em {
+	position: absolute;
+	font-style: normal;
+	color: #000;
+	top: 50%;
+	left: 49%;
+	transform: translate(-50%, -50%);
+	z-index: -1;
+	filter: blur(4px);
+}
+
+.expHeading {
+	font-family: "ubuntu", "sans-serif";
+	font-size: 4vw;
+	padding: 2.5vw;
+}
+
+.expPhotoWrapper1 {
+	position: relative;
+	margin-top: 0vh;
+	margin-bottom: 2vh;
+	width: 40%;
+	left: 50%;
+	transform: translateX(-50%);
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+}
+.expPhotoWrapperSmall {
+	position: relative;
+	margin-top: 3.5vh;
+	margin-bottom: 3vh;
+	width: 40%;
+	left: 50%;
+	transform: translateX(-50%);
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+}
+
+.expPhotoWrapperBig {
+	position: relative;
+	margin-top: 3.5vh;
+	margin-bottom: 3vh;
+	width: 80%;
+	left: 50%;
+	transform: translateX(-50%);
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+}
+
+.photo1 {
+	width: 100%;
+}
+
+.photo2 {
+	width: 100%;
+}
+
+.photo3 {
+	width: 100%;
+}
+
+.photo4 {
+	width: 100%;
+}
+
+.photo5 {
+	width: 100%;
+}
+
+.photo6 {
+	width: 100%;
+}
+
+.expHeading_HBD {
+	font-family: "ubuntu", "sans-serif";
+	font-size: 2vw;
+	margin-top: -2vh;
+	margin-bottom: 1.25vh;
+	margin-left: 5vw;
+}
+
+.expHeading_BCD {
+	font-family: "ubuntu", "sans-serif";
+	font-size: 2vw;
+	margin-top: 2vh;
+	margin-bottom: 1.25vh;
+	margin-left: 5vw;
+}
+
+.expContentHeading {
+	font-family: "ubuntuMonoRegular", "sans-serif";
+	font-size: 1.2vw;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4vh;
+	line-height: 3.3vh;
+}
+
+.expContent {
+	font-family: "ubuntuMonoRegular", "sans-serif";
+	font-size: 1.2vw;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 3.3vh;
+}
+
+.expContentEnding {
+	font-family: "ubuntuMonoRegular", "sans-serif";
+	font-size: 1.2vw;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 4vh;
+	line-height: 3.3vh;
+}
+
+/* Notebook Page*/
+
+.NTBK {
+	width: 100%;
+	height: 100vh;
+	background-image: url("https://2021.igem.org/wiki/images/4/42/T--KCIS_NewTaipei--placeHolder.png");
+	background-size: 100vw 100vh;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.NTBK .wordContainer {
+	position: absolute;
+	font-family: "dmSerifDisplay", "sans-serif";
+	font-size: 9.5vw;
+	color: #fff;
+	white-space: nowrap;
+	z-index: 0;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.NTBK .wordContainer em {
+	position: absolute;
+	font-style: normal;
+	color: #000;
+	top: 50%;
+	left: 49%;
+	transform: translate(-50%, -50%);
+	z-index: -1;
+	filter: blur(4px);
+}
+
+.ntbkHeading {
+	font-family: "ubuntu", "sans-serif";
+	font-size: 4vw;
+	padding: 2.5vw;
+}
+
+.ntbkContent {
+	font-family: "ubuntuMonoRegular", "sans-serif";
+	font-size: 1.6vw;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 3.3vh;
+}
+
+.ntbkContentEnding {
+	font-family: "ubuntuMonoRegular", "sans-serif";
+	font-size: 1.6vw;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 7.5vh;
+	line-height: 3.3vh;
+}
