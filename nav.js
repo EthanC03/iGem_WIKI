@@ -44,3 +44,7 @@ window.addEventListener("mouseup", function(event) {
     }
   }
 });
+
+$("#rb").bind("click", function () {
+  $("html, body").animate({ scrollTop: 0 });
+});
