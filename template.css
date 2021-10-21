@@ -112,6 +112,7 @@ figcaption {
 }
 
 .HPFigCap {
+	font-family: 'ubuntuMonoRegular', 'sans-serif';
 	width: calc(100% - 45vw);
 	height: 100%;
 	background-color: rgba(245, 141, 141, 0.26);
@@ -2068,7 +2069,7 @@ div[class*="Des"] {
 
 .partContent {
 	font-family: "ubuntuMonoRegular", "sans-serif";
-	font-size: 1.6vw;
+	font-size: 1.2vw;
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
