@@ -1892,6 +1892,7 @@ div[class*="Des"] {
 .expHeading_HBD {
 	font-family: "ubuntu", "sans-serif";
 	font-size: 2vw;
+	line-height: 3.3vh;
 	margin-top: 1vh;
 	margin-bottom: 1.25vh;
 	margin-left: 5vw;
@@ -1900,6 +1901,7 @@ div[class*="Des"] {
 .expHeading_BCD {
 	font-family: "ubuntu", "sans-serif";
 	font-size: 2vw;
+	line-height: 3.3vh;
 	margin-top: 2vh;
 	margin-bottom: 1.25vh;
 	margin-left: 5vw;
